@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="background-color:yellowgreen;">
+<br>
+ <div class="container"> 
+  	<center><h1 style="background-color:white;"> My First Javascript Website </h1></center>
+<br>
+<h5>Javascript and Programming Concepts</h5>
+<br><h5>.innerHTML:</h5>
+<h5 id="demo"></h5>
+
+<script>
+document.getElementById("demo").innerHTML = 2841474174927847 + 980974747384837224;
+</script>
+<br>
+<h5>document.write()</h5>
+<br>
+<button type="button" onclick="document.write(100 + 700)">Try it</button>
+
+<script>
+window.alert(4 + 6);
+</script>
+<br>
+<h5>window.alert()</h5>
+
+<br></div>
+
+<div class="container"> 
+  	<center><h2 style="background-color:white;"> Data Types </h2></center><br><br>
+<h4>Strings</h4>
+
+<h5 id="demo2"></h5>
+
+<script>
+let carName1 = "Tomato Soup";
+let carName2 = 'Lasagna';
+let carName3 = 'Spaghetti';
+
+document.getElementById("demo2").innerHTML =
+carName1 + "<br>" + 
+carName2+ "<br>" +
+carName3; 
+</script>
+
+<br>
+<h4>Numbers</h4>
+<br>
+<h5 id="demo3"></h5>
+
+<script>
+let x1 = 87.00;
+let x2 = 87;
+let x3 = 8.74;
+
+document.getElementById("demo3").innerHTML =
+x1 + "<br>" + x2 + "<br>" + x3;
+</script>
+<br>
+<h4>Booleans</h4>
+<br>
+<h5 id="demo4"></h5>
+
+<script>
+let x = 5;
+let y = 5;
+let z = 5;
+
+document.getElementById("demo4").innerHTML =
+(x == y) + "<br>" + (x == z);
+</script>
+<br>
+<h4>Arrays</h4>
+<br>
+<p id="demo5"></p>
+
+<script>
+const brands = ["Gucci","Guess", "Rolex", "Prada"];
+document.getElementById("demo5").innerHTML = brands[3];
+</script>
+
+
+</div>
+</html></body>
